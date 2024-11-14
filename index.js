@@ -8,9 +8,9 @@ const server = http.createServer(app);
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: 'https://live-code-mu.vercel.app/', // Replace with your frontend domain
-  methods: ['GET', 'POST'],
-  optionsSuccessStatus: 200,
+    origin: 'https://live-code-beta.onrender.com', // Replace with your frontend domain
+    methods: ['GET', 'POST'],
+    optionsSuccessStatus: 200,
 };
 const io = new Server(server, {
   cors: corsOptions,
