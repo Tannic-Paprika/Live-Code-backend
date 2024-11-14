@@ -8,7 +8,7 @@ const server = http.createServer(app);
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-    origin: 'https://live-code-beta.onrender.com', // Replace with your frontend domain
+    origin: 'https://live-code-delta.vercel.app/', // Replace with your frontend domain
     methods: ['GET', 'POST'],
     optionsSuccessStatus: 200,
 };
